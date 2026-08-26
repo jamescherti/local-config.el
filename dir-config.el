@@ -5,7 +5,7 @@
 ;; Author: James Cherti <https://www.jamescherti.com/contact/>
 ;; Version: 1.0.2
 ;; URL: https://github.com/jamescherti/dir-config.el
-;; Keywords: convenience
+;; Keywords: convenience, files, lisp
 ;; Package-Requires: ((emacs "25.1"))
 ;; SPDX-License-Identifier: GPL-3.0-or-later
 
@@ -75,7 +75,7 @@
 
 (defgroup dir-config nil
   "Non-nil if dir-config mode mode is enabled."
-  :group 'dir-config
+  :group 'files
   :prefix "dir-config-"
   :link '(url-link
           :tag "Github"
